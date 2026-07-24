@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>project</title>
+    <title>NTI</title>
 </head>
 
 <body>
@@ -37,25 +37,28 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav  mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#Home">HOME</a>
+                            <a class="nav-link active" id="a1" aria-current="page" href="#Home">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#About">ABOUT</a>
+                            <a class="nav-link" id="a2" href="#About">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">MENU</a>
+                            <a class="nav-link" id="a3" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GALLARY</a>
+                            <a class="nav-link" id="a4" href="#Portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">RESERVATION</a>
+                            <a class="nav-link" id="a5"  href="#stats">RESERVATION</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">BLOG</a>
+                            <a class="nav-link" id="a8"  href="#Feedback">Feedback</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACTUS</a>
+                            <a class="nav-link" id="a6" href="#BLOG">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="a7" href="#Contact">CONTACT US</a>
                         </li>
 
                     </ul>
@@ -168,7 +171,7 @@
 
     <!-- start services -->
 
-    <section class="services w-100 ">
+    <section class="services w-100 " id="services">
 
         <div class="container">
 
@@ -179,7 +182,7 @@
             <div class="jobs row text-center">
 
                 <div class="job col-lg-3 col-sm-8 mx-auto">
-                    <div class="w-75 mx-auto">
+                    <div class="inner w-75 mx-auto">
                         <i class="fas fa-pencil-ruler"></i>
                     <h3>UI/UX DESIGN</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
@@ -227,7 +230,7 @@
 
     <!-- start portfolio -->
 
-    <section class="portfolio">
+    <section class="portfolio" id="Portfolio" >
 
         <div class="container">
 
@@ -238,18 +241,18 @@
             <div class="tracks d-flex justify-content-center my-5">
 
                 <div class="track">
-                    <a href="" class="active">all</a>
-                    <a href="">grafic</a>
-                    <a href="">web design</a>
-                    <a href="">branding</a>
+                    <button id="All" class="track link-active">all</button>
+                    <button id="Grafic" class="track" >grafic</button>
+                    <button id="web" class="track" >web design</button>
+                    <button id="Branding" class="track" >branding</button>
                 </div>
 
             </div>
 
             <div class="gallary row ">
 
-                <div class="item col-lg-4 col-sm-8 mx-auto">
-                    <div class="inner  w-100">
+                <div class="item col-lg-4 col-sm-8 mx-auto" id="imge1">
+                    <div class="inner  w-100 ">
                         <img class="w-100" src="/img/imgi_2_1.jpg" alt="">
                         <div class="caption">
                             <a href="#" class=""><i class="fa fa-link"></i></a>
@@ -258,7 +261,7 @@
                 </div>
 
 
-                <div class="item col-lg-4 col-sm-8 mx-auto">
+                <div class="item col-lg-4 col-sm-8 mx-auto" id="imge2">
                     <div class="inner  w-100">
                         <img class="w-100" src="/img/imgi_3_2.jpg" alt="">
                         <div class="caption">
@@ -267,7 +270,7 @@
                     </div>
                 </div>
 
-                <div class="item col-lg-4 col-sm-8 mx-auto">
+                <div class="item col-lg-4 col-sm-8 mx-auto" id="imge3">
                     <div class="inner  w-100">
                         <img class="w-100" src="/img/imgi_4_3.jpg" alt="">
                         <div class="caption">
@@ -276,7 +279,7 @@
                     </div>
                 </div>
 
-                <div class="item col-lg-4 col-sm-8 mx-auto">
+                <div class="item col-lg-4 col-sm-8 mx-auto" id="imge4">
                     <div class="inner  w-100">
                         <img class="w-100" src="/img/imgi_5_4.jpg" alt="">
                         <div class="caption">
@@ -285,7 +288,7 @@
                     </div>
                 </div>
 
-                <div class="item col-lg-4 col-sm-8 mx-auto">
+                <div class="item col-lg-4 col-sm-8 mx-auto" id="imge5">
                     <div class="inner  w-100">
                         <img class="w-100" src="/img/imgi_6_5.jpg" alt="">
                         <div class="caption">
@@ -294,7 +297,7 @@
                     </div>
                 </div>
 
-                <div class="item col-lg-4 col-sm-8 mx-auto">
+                <div class="item col-lg-4 col-sm-8 mx-auto" id="imge6">
                     <div class="inner  w-100">
                         <img class="w-100" src="/img/imgi_7_6.jpg" alt="">
                         <div class="caption">
@@ -314,7 +317,7 @@
     <!-- end portfolio -->
 
 
-    <section class="stats-section">
+    <div class="stats-section" id="stats">
 
         <div class="container">
 
@@ -322,36 +325,36 @@
 
                 <div class=" stat col-lg-3 col-sm-12">
                     <i class="fa-solid fa-users"></i>
-                    <h3>156</h3>
+                    <h3 id="coun">156</h3>
                     <p>Team members</p>
                 </div>
 
                 <div class=" stat col-lg-3 col-sm-12">
                     <i class="fa-regular fa-copy"></i>
-                    <h3>272</h3>
+                    <h3 id="coun2">272</h3>
                     <p>Complete Projects</p>
                 </div>
 
                 <div class=" stat col-lg-3 col-sm-12">
                     <i class="fa-solid fa-cloud-arrow-down"></i>
-                    <h3>1422</h3>
+                    <h3 id="coun3">1422</h3>
                     <p>Files Downloaded</p>
                 </div>
 
                 <div class=" stat col-lg-3 col-sm-12">
                     <i class="fa-solid fa-mug-saucer"></i>
-                    <h3>936</h3>
+                    <h3 id="coun4">936</h3>
                     <p>Lines Of Code</p>
                 </div>
 
             </div>
         </div>
 
-    </section>
+    </div>
 
     <!-- start feedback -->
 
-    <section class="feedback">
+    <section class="feedback" id="Feedback">
 
         <div class="container">
 
@@ -359,7 +362,7 @@
                 <h2>Client's Feedback</h2>
             </div>
 
-            <div class="box">
+            <div class="box" id="cont1">
                 <div class="triangle"></div>
 
                 <div class="info row gap-5">
@@ -374,8 +377,31 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box d-none" id="cont2">
+                <div class="triangle"></div>
+
+                <div class="info row gap-5">
+
+                    <div class="col-lg-2 col-md-2  profile"><img src="/img/imgi_8_2.jpg" alt=""></div>
+                    <div class="details col-lg-9 col-sm-12">
+                        <h3>Jac Ander</h3>
+                        <a><i class="fas fa-map-marker-alt location"></i>EGY</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni
+                            sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem
+                            adipisicing elit.</p>
+                        <div class="stars text-warning">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
 
@@ -383,8 +409,8 @@
             </div>
 
             <div class="bullets">
-                <span class="larg"></span>
-                <span class="small"></span>
+                <input type="radio" id="inp1" name="Reda" checked>
+                <input type="radio" id="inp2" name="Reda">
             </div>
 
         </div>
@@ -395,7 +421,7 @@
 
     <!-- start blog -->
 
-    <section class="blog">
+    <section class="blog" id="BLOG">
 
         <div class="container">
 
@@ -534,6 +560,7 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
