@@ -74,16 +74,7 @@ a7.onclick = function (){
     a6.classList.remove("active")
     a7.classList.add("active")
     }
-a8.onclick = function (){
-    a1.classList.remove("active")
-    a2.classList.remove("active")
-    a3.classList.remove("active")
-    a4.classList.remove("active")
-    a5.classList.remove("active")
-    a6.classList.remove("active")
-    a7.classList.remove("active")
-        
-}
+
 
 // end     الكود بتاع الزراير الي في ال navbar
 
