@@ -1,7 +1,4 @@
 
-
-// start     الكود بتاع الزراير الي في ال navbar
-
 let a1 = document.getElementById("a1")
 let a2 = document.getElementById("a2")
 let a3 = document.getElementById("a3")
@@ -76,10 +73,10 @@ a7.onclick = function (){
     }
 
 
-// end     الكود بتاع الزراير الي في ال navbar
 
 
-// start     الكود بتاع الزراير الي بتجيب الصور
+
+
 let Grafic = document.getElementById('Grafic');
 let web = document.getElementById('web');
 let Branding = document.getElementById('Branding');
@@ -91,7 +88,7 @@ let img3 = document.getElementById("imge3");
 let img4 = document.getElementById("imge4");
 let img5 = document.getElementById("imge5");
 let img6 = document.getElementById("imge6");
-// let boxs = document.getElementsByClassName("boxs")
+
 
 All.onclick = function(){
     img1.classList.remove("d-none");
@@ -147,8 +144,9 @@ Grafic.onclick = function () {
     All.classList.remove("link-active")
     Branding.classList.remove("link-active")
 }
-// end     الكود بتاع الزراير الي بتجيب الصور
-// start     الكود بتاع الارقام الي بتتعد
+
+
+
 let coun = document.getElementById("coun");
 let coun2 = document.getElementById("coun2");
 let coun3 = document.getElementById("coun3");
@@ -160,7 +158,7 @@ window.addEventListener("scroll", function () {
 
     let section = document.querySelector(".stats-section");
 
-    let sectionTop = section.getBoundingClientRect().top; // hight of window  بتجيب 
+    let sectionTop = section.getBoundingClientRect().top; 
     
     console.log(section.getBoundingClientRect().top);
 
@@ -173,7 +171,7 @@ window.addEventListener("scroll", function () {
         let end3 = Number(coun3.textContent);
         let end4 = Number(coun4.textContent);
 
-        let duration = 5000; // 5s
+        let duration = 5000; 
 
         let speed1 = duration / end1;
         let speed2 = duration / end2;
@@ -220,8 +218,7 @@ window.addEventListener("scroll", function () {
     }
 
 });
-// end     الكود بتاع الارقام الي بتتعد
-// Start    الكود بتاع الزراير ال radio
+
 let inp1 = document.getElementById('inp1')
 let inp2 = document.getElementById('inp2')
 
@@ -241,6 +238,6 @@ inp2.onclick = function() {
     cont2.classList.remove("d-none");
 }
 
-// end    الكود بتاع الزراير ال radio
+
 
 
